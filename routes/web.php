@@ -14,10 +14,8 @@ use App\Http\Controllers\PokemonController;
 |
 */
 
-Route::get('/generations', [PokemonController::class, 'ShowGenerations'])->name('generations');;
+Route::get('/', [PokemonController::class, 'ShowGenerations'])->name('generations');;
 Route::get('/pokemons/{generation}', [PokemonController::class, 'show'])->name('pokemons.show');
 
 
-Route::get('/', function () {
-    return view('index');
-});
+

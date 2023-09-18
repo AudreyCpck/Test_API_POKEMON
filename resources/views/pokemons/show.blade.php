@@ -19,7 +19,7 @@
 <body class="font-poppins bg-gray-100">
     <div class="bg-white p-6 rounded-lg shadow-md max-w-7xl mx-auto my-8">
 
-        <!-- Bouton de retour -->
+    
         <div class="text-left mb-4">
             <a href="{{ route('generations') }}"> <img src="{{ asset('asset/icons/fleche.png') }}"> </a>
             <h1 class="text-center text-3xl mb-8"> Liste des Pokémons </h1>
